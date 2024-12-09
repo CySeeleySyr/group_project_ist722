@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: vb_zip_codes
+    description: "Table containing information about zip codes."
+    columns:
+      - name: zip_code
+        description: "Zip code."
+      - name: zip_city
+        description: "City associated with the zip code."
+      - name: zip_state
+        description: "State associated with the zip code."
+      - name: zip_lat
+        description: "Latitude of the zip code."
+      - name: zip_long
+        description: "Longitude of the zip code."

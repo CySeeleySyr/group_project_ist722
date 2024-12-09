@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: vb_user_ratings
+    description: "Table containing ratings given by VBAY users."
+    columns:
+      - name: rating_id
+        description: "Unique identifier for each rating."
+      - name: rating_by_user_id
+        description: "User ID of the user giving the rating."
+      - name: rating_for_user_id
+        description: "User ID of the user receiving the rating."
+      - name: rating_astype
+        description: "Type of rating given."
+      - name: rating_value
+        description: "Value of the rating."
+      - name: rating_comment
+        description: "Comment associated with the rating."

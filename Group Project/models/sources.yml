@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: vbay
+    tables:
+      - name: vb_users
+      - name: vb_item_types_lookup
+      - name: vb_bid_status_lookup
+      - name: vb_rating_astypes_lookup
+      - name: vb_zip_codes
+      - name: vb_items
+      - name: vb_user_ratings
+      - name: vb_bids

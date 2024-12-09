@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: vb_bid_status_lookup
+    description: "Lookup table for bid statuses."
+    columns:
+      - name: bid_status
+        description: "Status of the bid."

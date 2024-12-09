@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: user_ratings_summary
+    description: "Aggregated user ratings summary with statistics for each user."
+    columns:
+      - name: rating_for_user_id
+        description: "User ID of the user being rated."
+      - name: total_ratings
+        description: "Total number of ratings received by the user."
+      - name: avg_rating
+        description: "Average rating received by the user."
+      - name: max_rating
+        description: "Maximum rating received by the user."
+      - name: min_rating
+        description: "Minimum rating received by the user."

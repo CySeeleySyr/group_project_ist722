@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: vb_bids
+    description: "Table containing information about VBAY bids."
+    columns:
+      - name: bid_id
+        description: "Unique identifier for each bid."
+      - name: bid_user_id
+        description: "User ID of the bidder."
+      - name: bid_item_id
+        description: "Item ID for which the bid was placed."
+      - name: bid_datetime
+        description: "Date and time when the bid was placed."
+      - name: bid_amount
+        description: "Amount of the bid."
+      - name: bid_status
+        description: "Status of the bid (e.g., accepted, rejected)."

@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: dim_vb_users
+    description: "Dimension table for user information"
+  - name: dim_vb_item_types_lookup
+    description: "Lookup table for item types"
+  - name: dim_vb_bid_status_lookup
+    description: "Lookup table for bid status values"
+  - name: dim_vb_rating_astypes_lookup
+    description: "Lookup table for rating types"
+  - name: dim_vb_zip_codes
+    description: "Dimension table for zip code metadata"
+  - name: fact_vb_items
+    description: "Fact table for VBAY items"
+  - name: fact_vb_user_ratings
+    description: "Fact table for VBAY user ratings"
+  - name: fact_vb_bids
+    description: "Fact table for VBAY bids"
+  - name: fact_user_ratings_summary
+    description: "Aggregated user ratings summary"
+  - name: fact_top_users
+    description: "Aggregated table for top buyers and sellers"
