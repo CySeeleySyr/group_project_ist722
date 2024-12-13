@@ -5,7 +5,7 @@ SELECT
     user_firstname,
     user_lastname,
     user_email,
-    user_zipcode
+    user_zip_code
 FROM {{ source('raw', 'vb_users') }}
 
 

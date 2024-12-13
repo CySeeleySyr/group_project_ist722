@@ -2,23 +2,24 @@ version: 2
 
 models:
   - name: vb_items
-    description: "Table containing information about items listed on VBAY."
+    description: "Contains transformed item data with proper timestamp for item_enddate"
     columns:
       - name: item_name
-        description: "Name of the item."
+        description: "Name of the item"
       - name: item_type
-        description: "Type of the item."
+        description: "Type/category of the item"
       - name: item_description
-        description: "Description of the item."
+        description: "Description of the item"
       - name: item_reserve
-        description: "Reserve price for the item."
+        description: "Reserve price for the item"
       - name: item_enddate
-        description: "Auction end date and time."
+        description: "End date of the item (converted from Unix timestamp)"
       - name: item_sold
-        description: "Indicator if the item was sold (Y/N)."
+        description: "Indicates whether the item has been sold (Y/N)"
       - name: item_seller_user_id
-        description: "User ID of the seller."
+        description: "User ID of the seller"
       - name: item_buyer_user_id
-        description: "User ID of the buyer."
+        description: "User ID of the buyer"
       - name: item_soldamount
-        description: "Amount for which the item was sold."
+        description: "Amount the item was sold for"
+

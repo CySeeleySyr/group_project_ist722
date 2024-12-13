@@ -12,5 +12,5 @@ models:
         description: "User's last name."
       - name: user_email
         description: "User's email address."
-      - name: user_zipcode
+      - name: user_zip_code
         description: "User's zip code."

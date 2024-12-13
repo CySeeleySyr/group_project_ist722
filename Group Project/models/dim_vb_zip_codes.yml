@@ -12,5 +12,5 @@ models:
         description: "State associated with the zip code."
       - name: zip_lat
         description: "Latitude of the zip code."
-      - name: zip_long
+      - name: zip_lng
         description: "Longitude of the zip code."

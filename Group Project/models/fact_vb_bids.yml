@@ -2,17 +2,17 @@ version: 2
 
 models:
   - name: vb_bids
-    description: "Table containing information about VBAY bids."
+    description: "Contains transformed bid data with proper timestamp for bid_datetime"
     columns:
       - name: bid_id
-        description: "Unique identifier for each bid."
+        description: "Unique identifier for each bid"
       - name: bid_user_id
-        description: "User ID of the bidder."
+        description: "User ID of the person making the bid"
       - name: bid_item_id
-        description: "Item ID for which the bid was placed."
+        description: "ID of the item being bid on"
       - name: bid_datetime
-        description: "Date and time when the bid was placed."
+        description: "Timestamp of the bid, converted from Unix timestamp"
       - name: bid_amount
-        description: "Amount of the bid."
+        description: "Amount of the bid"
       - name: bid_status
-        description: "Status of the bid (e.g., accepted, rejected)."
+        description: "Status of the bid"

@@ -1,5 +1,6 @@
 {{ config(materialized='table') }}
 
+
 SELECT
     bid_id,
     bid_user_id,
@@ -7,5 +8,7 @@ SELECT
     bid_datetime,
     bid_amount,
     bid_status
-FROM {{ source('raw', 'vb_bids') }}
+FROM {{ source('raw', 'vb_bids') }} 
+
+
 
