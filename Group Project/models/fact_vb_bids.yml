@@ -1,18 +1,18 @@
+# Models YAML for fact_vb_bids table
 version: 2
-
 models:
-  - name: vb_bids
-    description: "Contains transformed bid data with proper timestamp for bid_datetime"
+  - name: fact_vb_bids
+    description: "Fact table for VBAY bids."
     columns:
       - name: bid_id
-        description: "Unique identifier for each bid"
+        description: "Unique identifier for each bid."
       - name: bid_user_id
-        description: "User ID of the person making the bid"
+        description: "User ID of the person making the bid."
       - name: bid_item_id
-        description: "ID of the item being bid on"
+        description: "ID of the item being bid on."
       - name: bid_datetime
-        description: "Timestamp of the bid, converted from Unix timestamp"
+        description: "Timestamp of the bid."
       - name: bid_amount
-        description: "Amount of the bid"
+        description: "Amount of the bid."
       - name: bid_status
-        description: "Status of the bid"
+        description: "Status of the bid."

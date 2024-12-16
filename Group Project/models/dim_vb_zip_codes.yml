@@ -1,8 +1,8 @@
+# Models YAML for dim_vb_zip_codes table
 version: 2
-
 models:
-  - name: vb_zip_codes
-    description: "Table containing information about zip codes."
+  - name: dim_vb_zip_codes
+    description: "Dimension table for zip code metadata."
     columns:
       - name: zip_code
         description: "Zip code."

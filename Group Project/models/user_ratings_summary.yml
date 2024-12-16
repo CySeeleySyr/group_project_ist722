@@ -1,8 +1,8 @@
+# Models YAML for fact_user_ratings_summary table
 version: 2
-
 models:
-  - name: user_ratings_summary
-    description: "Aggregated user ratings summary with statistics for each user."
+  - name: fact_user_ratings_summary
+    description: "Aggregated user ratings summary."
     columns:
       - name: rating_for_user_id
         description: "User ID of the user being rated."

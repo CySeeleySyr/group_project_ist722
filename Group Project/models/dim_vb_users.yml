@@ -1,8 +1,8 @@
+# Models YAML for dim_vb_users table
 version: 2
-
 models:
-  - name: vb_users
-    description: "Table containing information about VBAY users."
+  - name: dim_vb_users
+    description: "Dimension table for user information."
     columns:
       - name: user_id
         description: "Unique identifier for each user."
@@ -14,3 +14,4 @@ models:
         description: "User's email address."
       - name: user_zip_code
         description: "User's zip code."
+

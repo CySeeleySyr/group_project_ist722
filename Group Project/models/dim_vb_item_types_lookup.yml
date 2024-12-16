@@ -1,8 +1,8 @@
+# Models YAML for dim_vb_item_types_lookup table
 version: 2
-
 models:
-  - name: vb_item_types_lookup
+  - name: dim_vb_item_types_lookup
     description: "Lookup table for item types."
     columns:
       - name: item_type
-        description: "Type of item."
+        description: "Type of the item."

@@ -1,7 +1,7 @@
+# Models YAML for dim_vb_rating_astypes_lookup table
 version: 2
-
 models:
-  - name: vb_rating_astypes_lookup
+  - name: dim_vb_rating_astypes_lookup
     description: "Lookup table for rating types."
     columns:
       - name: rate_astype_lookup

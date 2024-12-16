@@ -1,8 +1,8 @@
+# Models YAML for fact_vb_user_ratings table
 version: 2
-
 models:
-  - name: vb_user_ratings
-    description: "Table containing ratings given by VBAY users."
+  - name: fact_vb_user_ratings
+    description: "Fact table for VBAY user ratings."
     columns:
       - name: rating_id
         description: "Unique identifier for each rating."

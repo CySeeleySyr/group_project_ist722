@@ -1,25 +1,26 @@
-version: 2
 
+# Models YAML for fact_vb_items table
+version: 2
 models:
-  - name: vb_items
-    description: "Contains transformed item data with proper timestamp for item_enddate"
+  - name: fact_vb_items
+    description: "Fact table for VBAY items."
     columns:
+      - name: item_id
+        description: "Unique identifier for each item."
       - name: item_name
-        description: "Name of the item"
+        description: "Name of the item."
       - name: item_type
-        description: "Type/category of the item"
-      - name: item_description
-        description: "Description of the item"
+        description: "Type of the item."
       - name: item_reserve
-        description: "Reserve price for the item"
+        description: "Reserve price of the item."
       - name: item_enddate
-        description: "End date of the item (converted from Unix timestamp)"
+        description: "End date of the auction."
       - name: item_sold
-        description: "Indicates whether the item has been sold (Y/N)"
+        description: "Indicates whether the item has been sold."
       - name: item_seller_user_id
-        description: "User ID of the seller"
+        description: "User ID of the item seller."
       - name: item_buyer_user_id
-        description: "User ID of the buyer"
+        description: "User ID of the item buyer."
       - name: item_soldamount
-        description: "Amount the item was sold for"
+        description: "Amount the item was sold for."
 
